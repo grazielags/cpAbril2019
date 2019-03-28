@@ -1,0 +1,19 @@
+//Criar um algoritmo que leia a idade de 5 pessoas e apresente a idade média delas.
+
+início
+   var
+      idade1, idade2, idade3, idade4, idade5, soma, media: inteiro
+   escreva(“Digite a primeira idade: ”)
+   leia(idade1)
+   escreva(“Digite a segunda idade: ”)
+   leia(idade2)
+   escreva(“Digite a terceira idade: ”)
+   leia(idade3)
+   escreva(“Digite a quarta idade: ”)
+   leia(idade4)
+   escreva(“Digite a quinta idade: ”)
+   leia(idade5)
+   soma = idade1 + idade2 + idade3 + idade4 + idade5
+   media = soma / 5
+   escrever(media)
+fim;
