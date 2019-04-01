@@ -1,0 +1,32 @@
+Problema:
+	Ler a idade de 5 pessoas e apresentar a média das idades;
+Entradas:
+	7 valores reais, idade 1, idade 2, idade 3, idade 4, idade 5, soma, média;
+Saídas:
+	A soma das idades: soma = idade 1 + idade 2 + idade 3 + idade 4 + idade 5;
+	A media das idades: média = soma / 5;
+Algoritimos:
+Início
+	Ler  idade 1, idade 2, idade 3, idade 4, idade 5,
+	
+	
+	
+	
+--------------------------------------------------------------------------------
+
+Início
+	var
+		 idade 1, idade 2, idade 3, idade 4, idade 5, soma, media: inteiro
+		 escreva("digite a primeira idade:")
+		 leia(idade1)
+		 escreva("digite a segubda idade:")
+		 leia(idade2)
+		 escreva("digite a terceira idade:")
+		 leia(idade3)
+		 escreva("digite a quarta idade:")
+		 leia(idade4)
+		 escreva("digite a quinta idade:")
+		 leia(idade5)
+		 soma = idade 1 + idade 2 + idade 3 + idade 4 + idade 5
+		 media = 
+		 

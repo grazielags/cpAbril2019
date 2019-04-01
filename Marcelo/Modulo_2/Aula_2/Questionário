@@ -1,0 +1,53 @@
+1) O que acontece se for incluído um valor real em uma variável inteira?
+R.: Erro na atribuição de valores à variável IDADE: Real para INTEIRO.
+
+2) Qual seria o tipo de variável correto para armazenar os seguintes dados:
+a) A sua idade - inteiro
+b) A área da sua casa. - Real
+c) O número de estrelas no céu - Inteiro
+d) O endereço da sua casa - carectere
+
+3) Faça um algoritmo declarando 4 variáveis de tipos diferentes.
+R: 
+algoritmo "TipoDados"
+var
+    endereço: caractere
+    idade: inteiro
+    peso: real
+    feminino: logico
+inicio
+	nome <- "Marcelo"
+	idade <- "42"
+	salario <- "4000"
+	feminino <- "falso"
+
+4) Obtendo 2 notas do teclado, calcule a média delas e apresente a média na tela.
+
+5) Obtenha o nome, telefone, endereço e idade de uma pessoa. Após armazenar os dados nas variáveis, apresentar os dados na tela.
+
+6) Calcule o valor de cada expressão abaixo e indique o tipo do resultado (inteiro ou real), onde b = 1 e c = 2:
+a) (20 - 15)/(2 * b) 
+b) 20 - 15/(2 * c) 
+c) 2*5/20 + 30/15*2 
+d) 2*(5/20) + 30/(15*2) 
+e) 23 div 4
+f) 23 mod 4
+g) 35 div 6 + 2
+h) 35 div 6 - 2
+
+7) Qual é o resultado das operações quando o algoritmo encontrar as seguintes linhas: 
+a) Escreva (“mario” = “maria”)
+b) Escreva (2 + 4 = 6)
+c) Escreva (10 - 4 > 7)
+d) Escreva ((2*3)>(3*2))
+e) Escreva (nao(“a” > “A”))
+
+8) Faça um algoritmo que calcule a área de um triângulo, considerando a fórmula area <- (base * altura) div 2. Utilize as variáveis area, base e altura e os operadores aritméticos de multiplicação e divisão.
+
+9) Faça um algoritmo que leia uma temperatura em graus Celsius e apresente-a convertida em graus Fahrenheit. A fórmula de conversão é: f <- ( c * 1.8) + 32 , na qual f é a temperatura em Fahrenheit e c é a temperatura em Celsius.
+
+10) Faça um algoritmo que leia dois valores para as variáveis A e B e efetue a troca dos valores de forma que a variável A passe a possuir o valor da variável B e a variável B passe a possuir o valor da variável A. Apresentar os valores trocados.
+
+11) Faça um algoritmo que leia a velocidade de um veículo em km/h e calcule e imprima a velocidade em m/s (metros por segundo).
+
+12) Faça um algoritmo que calcule a quantidade de litros de combustível gasta em uma viagem, utilizando um automóvel que faz 12Km por litro. Para obter o cálculo, o usuário deve fornecer o tempo gasto na viagem e a velocidade média durante ela. Desta forma, será possível obter a distância percorrida com a fórmula distancia <- tempo * velocidade. Tendo o valor da distância, basta calcular a quantidade de litros de combustível utilizada na viagem com a fórmula: litros = distancia div 12. O programa deve apresentar os valores da velocidade média, tempo gasto na viagem, a distância percorrida e a quantidade de litros utilizada na viagem.
