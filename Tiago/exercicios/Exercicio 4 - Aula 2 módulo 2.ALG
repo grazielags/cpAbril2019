@@ -5,8 +5,10 @@ Var
     nota1, nota2, media: real
 
 Inicio
- nota1 <- 7.5
- nota2 <- 8.3
+ escreval ("nota1 é: ")
+ leia (nota1)
+ escreval ("nota2 é: ")
+ leia (nota2)
  media <- (nota1 + nota2) / 2
  escreval ("Média da nota é: ", media)
 
