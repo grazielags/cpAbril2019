@@ -1,7 +1,7 @@
-algoritmo "Prova "
+algoritmo "Qual_valor_e_maor "
 // Função : Informar se o aluno foi aprovado
 // Autor : Priscilla Behnke
-// Data : 30/03/2019
+// Data : 01/04/2019
 // Seção de Declarações 
 
 var
@@ -25,10 +25,14 @@ LEIA(N3)
 media <- (N1+N2+N3)/3
 ESCREVAL("A média é: ",media:1:1)
 
-SE media >= 7 ENTAO
-ESCREVAL("*** APROVADO ***")
-SENAO media < 7 ENTAO
-ESCREVAL ("*** REPROVADO ***")
+SE media > 7 ENTAO
+   ESCREVAL("*** COISA LINDA PASASSE NEGO! ***")
+SENAO
+   SE media = 7 ENTAO
+      ESCREVAL ("*** PASASSE RASPANDO! TE CUIDA NÃO! ***")
+   SENAO
+      ESCREVAL ("*** SEU ARROMBADO! TE FUDESSE! ***")
+   FIMSE
 FIMSE
 
 fimalgoritmo
