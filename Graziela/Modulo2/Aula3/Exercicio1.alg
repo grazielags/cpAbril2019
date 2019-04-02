@@ -1,19 +1,21 @@
 algoritmo "Exercicio1"
 var
    nota1, nota2, nota3, media: real
+   nome: caractere
 inicio
-      Escreva("Digite a nota1: ")
+      Escreva("Digite o nome: ")
       Leia(nota1)
-      Escreva("Digite a nota2: ")
+      Escreva("Digite a nota1 do(a) aluno(a) ", nome, ": ")
+      Leia(nota1)
+      Escreva("Digite a nota2 do(a) aluno(a) ", nome, ": ")
       Leia(nota2)
-      Escreva("Digite a nota3: ")
+      Escreva("Digite a nota3 do(a) aluno(a) ", nome, ": ")
       Leia(nota3)
       media <- (nota1 + nota2 + nota3) / 3
       se media >= 7.0 entao
-         escreval("APROVADO com média: ", media)
+         escreval(nome, " APROVADO com média: ", media)
       senao
-         escreval("REPROVADO com média: ", media)
+         escreval(nome, " REPROVADO com média: ", media)
       fimse
-      escreval("Continuando o código")
 fimalgoritmo
 
