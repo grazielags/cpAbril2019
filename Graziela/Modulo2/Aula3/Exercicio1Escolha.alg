@@ -5,7 +5,7 @@
 //Recuperação (media de 3.1 a 6.9).
 algoritmo "Exercicio1Escolha"
 var
-   nome, situacao: caractere
+   nome: caractere
    nota1, nota2, nota3, nota4, media: real
 inicio
    escreva("Digite o nome:")
@@ -21,15 +21,12 @@ inicio
    media <- (nota1 + nota2 + nota3 + nota4) / 4
    escolha media
       caso 7 ate 10
-         situacao <- "Aprovado"
-      caso 1 ate 3
-         situacao <- "Reprovado"
+         escreva("O aluno: ", nome, " teve situação: Aprovado com media:", media)
+      caso 0 ate 3
+         escreva("O aluno: ", nome, " teve situação: Reprovado com media:", media)
       caso 3.1 ate 6.9
-         situacao <- "Recuperação"
+         escreva("O aluno: ", nome, " teve situação: Recuperação com media:", media)
       outrocaso
          escreva("Média inválida!")
    fimescolha
-   se situacao <> "" entao
-      escreva("O aluno: ", nome, " teve situação: ", situacao, " com media:", media)
-   fimse
 fimalgoritmo
