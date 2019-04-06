@@ -14,17 +14,18 @@ LEIA(idade)
 ESCREVA("Estado Civil (1-Solteiro, 2-Casado, 3-Separado, 4-Outros)? ")
 LEIA(estado)
 
-FACA CASO
-CASO estado=1
-ESCREVA("Solteiro")
-CASO estado=2
-ESCREVA("Casado")
-CASO estado=3
-ESCREVA("Separado")
-CASO estado=4
-ESCREVA ("Outros")
+estado <- 0
+ESCOLHA estado
+CASO estado='1'
+ESCREVAL("Solteiro")
+CASO estado='2'
+ESCREVAL("Casado")
+CASO estado='3'
+ESCREVAL("Separado")
+CASO estado='4'
+ESCREVAL ("Outros")
 OUTROCASO
-ESCREVA("Valor inválido! Por gentileza digite outro.")
-FIMCASO
+ESCREVAL("Valor inválido! Por gentileza digite outro.")
+FIMESCOLHA
 
 fimalgoritmo

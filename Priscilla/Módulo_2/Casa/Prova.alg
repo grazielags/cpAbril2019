@@ -1,4 +1,7 @@
-algoritmo "Qual_valor_e_maor "
+//Escrever um algoritmo que leia o nome e as três notas obtidas por um aluno durante o semestre. Calcular a sua média (aritmética), informar o nome e sua menção
+//aprovado (media >= 7), Reprovado (media < 7).
+
+algoritmo "Prova"
 // Função : Informar se o aluno foi aprovado
 // Autor : Priscilla Behnke
 // Data : 01/04/2019
