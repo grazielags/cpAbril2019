@@ -4,7 +4,6 @@ Var
 
 
 Inicio
-      tabuada <- 0
       Escreval ("digite um valor para n")
       leia (n)
 
