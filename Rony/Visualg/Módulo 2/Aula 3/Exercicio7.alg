@@ -4,8 +4,8 @@ algoritmo "Exercicio 7"
 // Data : 01/04/2019
 // Seção de Declarações 
 var
-   a,p:inteiro
-   i:real
+   i,p,taxa:real
+   a:inteiro
 inicio
 // Seção de Comandos 
    escreval("calculo do imposto do DETRAN em relaçao as informaçoes do carro")
@@ -16,13 +16,15 @@ inicio
    escreval
    
    se a < 1990 entao
-   i <- 0.01 * p
+   taxa <- 0.01
+   i <- taxa * p
    escreval("ano: ",a)
    escreval("preço: ",p," reais")
    escreval("imposto a ser pago: ",i," reais")
 
    senao
-   i <- 0.015 * p
+   taxa <- 0.015
+   i <- taxa * p
    escreval("ano do carro: ",a)
    escreval("preço do carro: ",p," reais")
    escreval("imposto a ser pago: ",i," reais")
