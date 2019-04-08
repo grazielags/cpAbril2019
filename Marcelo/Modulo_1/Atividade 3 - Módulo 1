@@ -1,0 +1,4 @@
+1) vi Marcelo.txt;
+2) editar o arquivo e presi=sionar a tecla esc e em seguida digitar o comando wq;
+3)executar o comando git add .; executar o comando git commit - m "Aula"; executar o comando git push origin master.
+4) executar p comando git pull --rebase
