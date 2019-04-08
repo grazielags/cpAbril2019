@@ -1,0 +1,2 @@
+1) O que acontece se for incluído um valor real em uma variável inteira?
+R.: Erro na atribuição de valores à variável IDADE: Real para INTEIRO.

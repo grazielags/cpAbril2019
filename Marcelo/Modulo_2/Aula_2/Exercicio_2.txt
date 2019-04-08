@@ -1,0 +1,5 @@
+2) Qual seria o tipo de variável correto para armazenar os seguintes dados:
+a) A sua idade - inteiro
+b) A área da sua casa. - Real
+c) O número de estrelas no céu - Inteiro
+d) O endereço da sua casa - carectere

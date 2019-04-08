@@ -1,4 +1,6 @@
 algoritmo "TipoDados"
+// Obtenha o nome, telefone, endereço e idade de uma pessoa. Após armazenar os
+//dados nas variáveis, apresentar os dados na tela.
 var
       nome: caractere
       telefone: inteiro

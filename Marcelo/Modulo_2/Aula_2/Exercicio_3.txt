@@ -1,0 +1,13 @@
+3) Faça um algoritmo declarando 4 variáveis de tipos diferentes.
+R: 
+algoritmo "TipoDados"
+var
+    endereço: caractere
+    idade: inteiro
+    peso: real
+    feminino: logico
+inicio
+	nome <- "Marcelo"
+	idade <- "42"
+	salario <- "4000"
+	feminino <- "falso"
