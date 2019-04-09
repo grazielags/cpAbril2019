@@ -1,31 +1,16 @@
-//Dados três valores A, B e C, verifique se eles podem ser os comprimentos dos
-//lados de um triângulo, se forem, verificar o tipo do triângulo.
-//Se os lados não formarem um triângulo, escrever uma mensagem.
-//O comprimento de cada lado em um triângulo é menor que a soma dos outros dois lados;
-//Equiláteros: tem os comprimentos dos três lados iguais;
-//Isósceles: tem os comprimentos de dois lados iguais;
-//Escaleno: tem os comprimentos dos três lados diferentes
 algoritmo "Exercicio3"
 var
-   a, b, c: inteiro
+   valor1, valor2, resultado: inteiro
 inicio
-   escreva("Leia lado a:")
-   leia(a)
-   escreva("Leia lado b:")
-   leia(b)
-   escreva("Leia lado c:")
-   leia(c)
-   se (a < b + c) E (b < a + c) E (c < a + b) entao
-      se (a = b) E (a = c) entao
-         escreva("Triângulo equilátero!")
-      senao
-         se (a <> b) E (a <> c) E (b <> c) entao
-            escreva("Triângulo escaleno!")
-         senao
-            escreva("Triângulo isósceles!")
-         fimse
-      fimse
+   Escreva("Digite um número: ")
+   Leia(valor1)
+   Escreva("Digite um novo número: ")
+   Leia(valor2)
+   se (valor1 > valor2) entao
+      resultado <- valor1 - valor2
+      Escreval("O resultado de: ", valor1, " - ", valor2, " é: ", resultado)
    senao
-      escreva("Não é um triângulo!")
+      resultado <- valor2 - valor1
+      Escreval("O resultado de: ", valor2, " - ", valor1, " é: ", resultado)
    fimse
 fimalgoritmo
