@@ -7,15 +7,15 @@ algoritmo "07_Tabuada"
 // Seção de Declarações 
 
 var
-valor,count: inteiro
+valor,contador: inteiro
 
 inicio
-// Seção de Comandos 
-ESCREVA("Digite um valor: ")
+// Seção de Comandos
+contador <- 1
+ESCREVA("Digite um valor:")
 LEIA(valor)
-
-enquanto valor <= 10 faca
-Escreval("count")
-valor <- count + 1
+enquanto contador  <= valor faca
+Escreval(contador,"x",valor,"=",(contador*valor))
+contador <- contador + 1
 fimenquanto
 fimalgoritmo
