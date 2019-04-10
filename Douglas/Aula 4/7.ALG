@@ -6,12 +6,11 @@ Var
 Inicio
       Escreval ("digite um valor para n")
       leia (n)
-
-      enquanto tabuada <= n faca
-      resultado <- (tabuada*n)
-      escreval (tabuada," x ",n, "= ", resultado)
-      tabuada <- tabuada + 1
-      fimenquanto
+      repita
+            tabuada <- tabuada + 1
+            resultado <- (tabuada*n)
+            escreval (tabuada," x ",n, "= ", resultado)
+      ate tabuada=10
       
 
 Fimalgoritmo
