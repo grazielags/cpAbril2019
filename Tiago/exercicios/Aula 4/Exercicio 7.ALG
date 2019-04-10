@@ -10,12 +10,16 @@ Var
 
 Inicio
       tabuada <- 1
-      Escreval ("Qual o valor de n")
+      escreval ("---------------------")
+      Escreval ("- Qual o valor de n -")
+      escreval ("---------------------")
       leia (n)
 
       enquanto tabuada <= n faca
       resultado <- (tabuada*n)
-      escreval ("A ",tabuada," X ",n, "= ", resultado)
+      escreval ("-------------------------------------------")
+      escreval ("A tabulada ",tabuada," X ",n, " = ", resultado)
+      escreval ("-------------------------------------------")
       tabuada <- tabuada + 1
       fimenquanto
       

@@ -14,19 +14,32 @@ Inicio
       leia (cliente)
       Escreval ("Qual o valo do seguro?")
       leia (valorseguro)
+      se valorseguro < 0 entao
+         escreval ("----------------------------")
+         escreval ("- Valor informado inválido -")
+         escreval ("----------------------------")
+      senao
       escolha valorseguro
       caso 0 ate 800
-      escreval ("Neste valor do seguro, não tem desconto")
+      escreval ("-------------------------------------------")
+      escreval ("- Neste valor do seguro, não tem desconto -")
+      escreval ("-------------------------------------------")
       caso 801 ate 1000
       desconto <- (valorseguro*5) / 100
+      escreval ("-------------------------------------------")
       escreval ("O valor do desconto é: ",desconto)
+      escreval ("-------------------------------------------")
       caso 1001 ate 1500
       desconto <- (valorseguro*10) / 100
+      escreval ("-------------------------------------------")
       escreval ("O valor do desconto é: ",desconto)
+      escreval ("-------------------------------------------")
       caso 1500 ate 999999999
       desconto <- (valorseguro*15) / 100
+      escreval ("-------------------------------------------")
       escreval ("O valor do desconto é: ",desconto)
+      escreval ("-------------------------------------------")
       fimescolha
-
+      fimse
 
 Fimalgoritmo

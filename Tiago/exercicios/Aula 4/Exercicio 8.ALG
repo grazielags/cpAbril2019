@@ -5,9 +5,13 @@ Var
    m, n, somamenor, somamaior, soma: inteiro
 
 Inicio
-      escreval ("informe o valor de m")
+      escreval ("------------------------")
+      escreval ("- informe o valor de m -")
+      escreval ("------------------------")
       leia (m)
-      escreval ("informe o valor de n")
+      escreval ("------------------------")
+      escreval ("- informe o valor de n -")
+      escreval ("------------------------")
       leia (n)
       
       se (m > n) entao
@@ -21,7 +25,8 @@ Inicio
                soma <- soma + somamenor
                somamenor <- somamenor + 1
       fimenquanto
+            escreval ("-----------------------------")
             escreval ("A soma dos valores é: ",soma)
-
+            escreval ("-----------------------------")
 
 Fimalgoritmo

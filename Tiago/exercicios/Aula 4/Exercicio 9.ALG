@@ -10,6 +10,7 @@ Inicio
       enquanto cont <= 1000 faca
          se (cont % 10) = 0 entao
          Escreval (cont)
+         Escreval ("--------")
          fimse
          cont <- cont + 1
       fimenquanto
