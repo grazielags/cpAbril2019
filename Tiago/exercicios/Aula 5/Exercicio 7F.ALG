@@ -1,11 +1,12 @@
 Algoritmo "semnome"
 // 7) Escreva um algoritmo dado o nome, cargo e o seu salário bruto de um
 // funcionário considere:
-// b) O funcionário receberá uma gratificação de 20% do salário bruto.
+// f) Imprimir o salário líquido.
+
+// Considerei 11% de inss
 Var
    nome, cargo: caractere
-   salario, salario2, reajuste: real
-
+   salario, salario2, salarioliquido: real
 
 Inicio
       Escreval ("Nome do funcionario: ")
@@ -15,12 +16,12 @@ Inicio
       Escreval ("Informe o salario: ")
       leia (salario)
       
-      salario2 <- (salario / 100) * 20
-      reajuste <- salario + salario2
+      salario2 <- (salario * 11) / 100
+      salarioliquido <- salario - salario2
 
       Escreval ("O Funcionário: ",nome)
       Escreval ("Cargo: ",cargo)
-      Escreval ("Salario Bruto com reajuste é: R$",reajuste)
+      Escreval ("Salario Liquido -11% INSS é: R$",salarioliquido)
 
 
 Fimalgoritmo
