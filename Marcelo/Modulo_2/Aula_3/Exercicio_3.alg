@@ -1,0 +1,18 @@
+algoritmo "Exercicio_3"
+//Elabore um algoritmo que leia dois números inteiros e mostre o resultado da
+//diferença do maior valor pelo menor.
+var
+    num1, num2: inteiro
+
+inicio
+      Escreva("Digite o número:")
+      Leia(num1)
+      Escreva("Digite o número:")
+      Leia(num2)
+      se num1 > num2 entao
+         Escreva("Diferença do maior valor pelo menor:", (num1 - num2))
+      senao
+         Escreva("Diferença do maior valor pelo menor:", (num2 - num1))
+      fimse
+fimalgoritmo
+

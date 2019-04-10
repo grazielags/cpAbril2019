@@ -1,4 +1,6 @@
-algoritmo "Exercici2"
+algoritmo "Exercicio_2"
+//Escrever um algoritmo que leia dois valores inteiros distintos e informe
+//qual é o maior.
 var
     num1, num2: inteiro
 
@@ -10,7 +12,7 @@ inicio
       se num1 > num2 entao
          Escreva ( "O número maior é:" ,num1)
       senao
-           Escreva ( "O número maior é:" ,num2)
+         Escreva ( "O número maior é:" ,num2)
       fimse
 fimalgoritmo
 
