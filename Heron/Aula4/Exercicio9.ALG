@@ -2,7 +2,7 @@ Algoritmo "Exercicio9"
 // 9) Escreva um algoritmo que apresente os valores divisíveis por 10 de 100
 // até 1000.
 Var
-   valor, cont10, cont, resul, resuldiv: inteiro
+   cont: inteiro
 
 Inicio
       cont <- 100
