@@ -16,27 +16,27 @@ nivel: inteiro
 
 
 Inicio
-      escreval("Nome do Funcionário: ")
+      escreva("Nome do Funcionário: ")
       leia(nome)
-      escreval("Quantidade de horas: ")
+      escreva("Quantidade de horas: ")
       leia(horas)
-      escreval("Digite seu nivel: ")
-      escreval("1 - Junior")
-      escreval("2 - Pleno")
-      escreval("3 - Senior")
+      escreva("Digite seu nivel: ")
+      escreva("1 - Junior")
+      escreva("2 - Pleno")
+      escreva("3 - Senior")
       leia(nivel)
       escolha nivel
       caso 1
       salario <- horas * 12.00
-      escreval("O Salário é: ", salario)
+      escreva("O Salário é: ", salario)
 
       caso 2
       salario <- horas * 25.00
-      escreval("O Salário é: ", salario)
+      escreva("O Salário é: ", salario)
 
       caso 3
       salario <- horas * 50.00
-      escreval("O Salário é: ", salario)
+      escreva("O Salário é: ", salario)
       
 
       fimescolha

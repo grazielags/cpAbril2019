@@ -7,19 +7,14 @@ algoritmo "06_Enquanto_Par"
 // Seção de Declarações
  
 var
-valor: inteiro
+valor,soma: inteiro
 
 inicio
-// Seção de Comandos 
+// Seção de Comandos
+ENQUANTO valor % 2 = 0 FACA
+soma <- soma + valor
 ESCREVA("Digite um valor:")
 LEIA(valor)
-
-ENQUANTO (valor/2)=0 FACA
-count <- count + 1
-SENAO
-FIMSE
 FIMENQUANTO
-
-
-
+ESCREVA("A soma dos números é:",soma)
 fimalgoritmo

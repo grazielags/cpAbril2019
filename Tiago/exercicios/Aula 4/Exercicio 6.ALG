@@ -5,13 +5,20 @@ Var
    num1, num2, media: real
    
 Inicio
-      escreval ("Escreva o primeiro numero")
+      escreval ("-----------------------------")
+      escreval ("- Escreva o primeiro numero -")
+      escreval ("-----------------------------")
       leia (num1)
-      escreval ("Escreva o segundo numero")
+      escreval ("----------------------------")
+      escreval ("- Escreva o segundo numero -")
+      escreval ("----------------------------")
       leia (num2)
       media <- (num1+num2) mod 2
       enquanto (media = 0) faca
-      escreval ("A soma dos valores é um numero PAR")
+      limpatela
+      escreval ("       --------------------------------------")
+      escreval ("       - A soma dos valores é um numero PAR -")
+      escreval ("       --------------------------------------")
       media <- media+1
       fimenquanto
       
