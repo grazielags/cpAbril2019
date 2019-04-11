@@ -16,12 +16,12 @@ Inicio
       leia (n4)
       media <- ((n1+n2+n3+n4) / 4)
       escolha media
-      caso 0 ate 3
-      escreval ("REPROVADO")
-      caso 3.1 ate 6.9
-      escreval ("RECUPERAÇÃO")
-      caso 7 ate 10
-      escreval ("APROVADO")
+              caso 0 ate 3
+                   escreval ("REPROVADO")
+              caso 3.1 ate 6.9
+                   escreval ("RECUPERAÇÃO")
+              caso 7 ate 10
+                   escreval ("APROVADO")
       fimescolha
       escreval ("A nota do aluno ", nome, " foi: ", media)
       

@@ -10,7 +10,7 @@ Inicio
             tabuada <- tabuada + 1
             resultado <- (tabuada*n)
             escreval (tabuada," x ",n, "= ", resultado)
-      ate tabuada=10
+      ate tabuada=n
       
 
 Fimalgoritmo
