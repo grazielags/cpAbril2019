@@ -13,7 +13,6 @@ inicio
      Fat <- Fat * Count
      Count <- Count + 1
      ate(count > n)
-               escreva ("O fatorial de", n)
-               escreva(" é igual a", Fat)
+               escreva ("O fatorial de", n," é igual a", Fat)
 
 fimalgoritmo
