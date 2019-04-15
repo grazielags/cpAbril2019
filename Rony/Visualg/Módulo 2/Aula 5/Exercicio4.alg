@@ -4,7 +4,7 @@ algoritmo "Exercicio 4"
 // Data : 08/04/2019
 // Seção de Declarações 
 var
-   x,y,x1,y1,potencia,i:inteiro
+   x,y,potencia,i:inteiro
 inicio
 // Seção de Comandos
 
@@ -16,9 +16,6 @@ inicio
    escreva("digite valor de Y: ")
    leia(y)
 
-   x1 <- x
-   y1 <- y
-
    potencia <-1
 
    para i de y ate 1 passo -1 faca
@@ -26,7 +23,7 @@ inicio
    fimpara
    
    escreval()
-   escreva(x1," na potência",y1," é: ",potencia)
+   escreva(x," na potência",y," é: ",potencia)
    
 
 
