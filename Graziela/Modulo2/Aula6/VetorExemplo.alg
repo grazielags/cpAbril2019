@@ -11,7 +11,7 @@ inicio
           leia(notas[i])
       fimpara
       para i de 0 ate 2 passo 1 faca
-           Escreval(nomes[i], " - ", notas[i])
+           Escreval(i, " - ", notas[i])
       fimpara
 fimalgoritmo
 
