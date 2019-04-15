@@ -13,26 +13,20 @@ inicio
    escreval("apresentaremos a idade média das 10 pessoas, a maior idade e a menor idade.")
    escreval()
 
-   //descomente alguma das duas opçoes
-   
-   
 
-   //opçao 1
-   //maior_idade <-0
-   //menor_idade <- 200
+
    
    para i de 1 ate 10 passo 1 faca
    escreva("Digite a idade da pessoa",i,": ")
    leia(idade)
    escreval()
    
-   //opçao 2
-   //enquanto i <=1 faca
-   //maior_idade <- idade
-   //menor_idade <- idade
-   //i<-i+1
-   //fimenquanto
    
+   se i<=1 entao
+      maior_idade <- idade
+      menor_idade <- idade
+   fimse
+
    se idade > maior_idade entao
       maior_idade <- idade
    fimse
