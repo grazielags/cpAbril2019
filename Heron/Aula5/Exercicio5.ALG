@@ -4,7 +4,7 @@ Algoritmo "Exercicio5"
 // e a menor idade.
 Var
    idademedia: real
-   idade, maiorIdade, menorIdade, i, count: inteiro
+   idade, maiorIdade, menorIdade, i: inteiro
 
 Inicio
       menorIdade <- 100

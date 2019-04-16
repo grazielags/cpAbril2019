@@ -1,4 +1,4 @@
-Algoritmo "semnome"
+Algoritmo "Exercicio7"
 // 7) Escreva um algoritmo dado o nome, cargo e o seu salário bruto de um
 // funcionário considere:
 // f) Imprimir o salário líquido.
