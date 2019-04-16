@@ -10,6 +10,7 @@ inicio
                     se idade>Maioridade entao
                     Maioridade <-idade
                     fimse
+                    menoridade<- maioridade
                     se idade<menoridade entao
                     menoridade <-idade
                     fimse
