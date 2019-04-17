@@ -5,7 +5,7 @@ algoritmo "Exercicio 6"
 // Seção de Declarações 
 var
    produto,parcela:real
-   n,i:inteiro
+   i:inteiro
 inicio
 // Seção de Comandos 
 
@@ -15,36 +15,34 @@ inicio
    escreval()
    escreva("Escreva o valor do produto: ")
    leia(produto)
-   escreva("Escreva o numero de parcelas desejado: ")
-   leia(n)
    escreval()
 
-   se n = 1 entao
+   i<-1
+
+   para i de 1 ate 10 faca
+
+   se i = 1 entao
    produto <- produto - produto*0.1
-   escreval("O valor da parcela será: ",produto)
+   parcela <- produto/i
+   escreval(i," - ",parcela)
    fimse
    
-   se (n>1) E (n<=5) entao
+   se (i>1) E (i<=5) entao
    produto <- 1.05* produto
-   parcela <- produto/n
-           para i de 1 ate n faca
-           escreval("O valor da parcela",i," é: ",parcela)
-           i<-i+1
-           fimpara
+   parcela <- produto/i
+   escreval(i," - ",parcela)
    fimse
 
-   se (n>5) E (n<=10) entao
+   se (i>5) E (i<=10) entao
    produto <- 1.10* produto
-   parcela <- produto/n
-           para i de 1 ate n faca
-           escreval("O valor da parcela",i," é: ",parcela)
-           i<-i+1
-           fimpara
+   parcela <- produto/i
+   escreval(i," - ",parcela)
    fimse
 
-  se n>10 entao
-  escreval("Número inválido de parcelas, consulte o gerente.")
-  fimse
+   i<-i+1
    
+   fimpara
+
+
    
 fimalgoritmo

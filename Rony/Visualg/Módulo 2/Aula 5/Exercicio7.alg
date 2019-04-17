@@ -4,7 +4,7 @@ algoritmo "Exercicio 7"
 // Data : 09/04/2019
 // Seção de Declarações 
 var
-salario,novo_salario:real
+salario,salario_bruto,salario_liquido:real
 nome,cargo:caractere
 idade:inteiro
 
@@ -27,20 +27,20 @@ escreva("Digite o valor do salário bruto: ")
 leia(salario)
 escreval()
 escreval("a) O salário bruto teve um reajuste de 38%.")
-novo_salario <- 1.38 * salario
-escreval("salario novo: ",novo_salario)
+salario_bruto <- 1.38 * salario
+escreval("salario novo: ",salario_bruto)
 escreval("b) O funcionário receberá uma gratificação de 20% do salário bruto.")
-novo_salario <- 1.20 * novo_salario
-escreval("salario novo: ",novo_salario)
+salario_bruto <- 1.20 * salario_bruto
+escreval("salario novo: ",salario_bruto)
 escreval("c) O Salário total é descontado em 15%")
-novo_salario <- 0.85 * novo_salario
-escreval("salario novo: ",novo_salario)
+salario_liquido <- 0.85 * salario_bruto
+escreval("salario novo: ",salario_liquido)
 escreval()
 escreval("O funcionário ",nome," que possui idade ",idade," anos e cargo de ",cargo,":")
 escreval()
-escreval("Possui salario bruto inicial de: ",salario)
+escreval("Possui salario bruto de: ",salario_bruto)
 escreval()
-escreval("Possui salario liquido final de: ",novo_salario)
+escreval("Possui salario liquido final de: ",salario_liquido)
 
 
 
