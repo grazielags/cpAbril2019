@@ -9,9 +9,9 @@ inicio
           Valor[posicao] <- i
           posicao <- (posicao + 1 )
       fimpara
-      ESCREVAL("valor multiplicado: ")
+      Escreval("O valor multiplicado de: ")
       para i de 0 ate 4 passo 1 faca
-           EscrevaL(Valor[i], " - ", Valormulti[i])
+           EscrevaL(Valor[i]," x", Valor[i], " - ", Valormulti[i])
       fimpara
 fimalgoritmo
 
