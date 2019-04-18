@@ -13,7 +13,7 @@ metade: vetor [0..9] de inteiro
 
 inicio
 // Seção de Comandos 
-ESCREVAL("*** INFORMAR A METADE DE CADA VALOR INORMADO PELO USUÁRIO ***")
+ESCREVAL("*** INFORMAR A METADE DE CADA VALOR INFORMADO PELO USUÁRIO ***")
 ESCREVAL
 para i de 0 ate 9 passo 1 faca
 ESCREVA("Informe um número: ")

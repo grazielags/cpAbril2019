@@ -15,7 +15,7 @@ algoritmo "04"
 // Seção de Declarações 
 
 var
-categoria: vetor [0..2] de inteiro
+categoria: vetor [0..2] de caractere
 idade: vetor [0..2] de inteiro
 i: inteiro
 
@@ -27,24 +27,24 @@ para i de 0 ate 2 passo 1 faca
 ESCREVA("Informe a idade do corredor: ")
 LEIA(idade[i])
 se (idade[i] >= 5) e (idade[i] <= 7) ENTAO
-categoria [i] <- 1
-ESCREVAL("Categoria do nadador: Infantil 'A'(refere-se ao código 1).")
+categoria [i] <- "Infantil A"
+ESCREVAL("Categoria do nadador:Infantil A.")
 SENAO
 se (idade[i] >= 8) e (idade[i] <= 10) ENTAO
-categoria [i] <- 2
-ESCREVAL("Categoria do nadador: Infantil 'B'(refere-se ao código 2).")
+categoria [i] <- "Infantil B"
+ESCREVAL("Categoria do nadador:Infantil B.")
 SENAO
 SE (idade[i] >= 11) e (idade[i] <= 13) ENTAO
-categoria [i] <- 3
-ESCREVAL("Categoria do nadador: 'Juvenil A'(refere-se ao código 3).")
+categoria [i] <- "Juvenil A"
+ESCREVAL("Categoria do nadador:Juvenil A.")
 SENAO
 SE (idade[i] >= 14) e (idade[i] <=17) ENTAO
-categoria [i] <- 4
-ESCREVAL("Categoria do nadador: 'Juvenil B'(refere-se ao código 4).")
+categoria [i] <- "Juvenil B"
+ESCREVAL("Categoria do nadador:Juvenil B.")
 SENAO
 SE idade[i] >= 18 ENTAO
-categoria [i] <- 5
-ESCREVAL("Categoria do nadador: 'Adulto'(refere-se ao código 5).")
+categoria [i] <- "Adulto"
+ESCREVAL("Categoria do nadador:Adulto.")
 fimse
 fimse
 fimse
@@ -53,6 +53,6 @@ fimse
 fimpara
 ESCREVAL
 para i de 0 ate 2 passo 1 faca
-ESCREVAL("Idade do navegador:",idade[i],". Categoria:",categoria[i])
+ESCREVAL("Idade do navegador:",idade[i],"/ Categoria:",categoria[i],".")
 fimpara
 fimalgoritmo
