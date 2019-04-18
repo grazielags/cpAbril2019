@@ -13,7 +13,7 @@ Inicio
       leia(valor[i])
       fimpara
       para i de 0 ate 4 passo 1 faca
-      escreval(valor[i])
+      escreval("Numero:", valor[i], " na posição:", i)
       fimpara
 
 Fimalgoritmo
