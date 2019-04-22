@@ -19,7 +19,7 @@ inicio
    escreval("11-13 anos - Juvenil A")
    escreval("14-17 anos - Juvenil B")
    escreval("Maior ou igual a 18 - Adulto")
-
+   escreval()
 
    para i de 0 ate 2 passo 1 faca
    escreva("Digite a idade do nadador: ")
