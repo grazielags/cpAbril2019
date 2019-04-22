@@ -7,13 +7,14 @@ Var
 
 
 Inicio
-    menorIdade <- 100
-    maiorIdade <- 0
-    idademedia <- 0
-    
-    para i de 0 ate 10 passo 1 faca
+
+    para i de 1 ate 10 passo 1 faca
     escreval ("Informe a Idade: ")
     leia (idade)
+         se i = 1 entao
+           menorIdade <- idade
+           maiorIdade <- idade
+           fimse
          se idade <= menorIdade entao
          menorIdade <- idade
          fimse
