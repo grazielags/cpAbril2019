@@ -1,23 +1,23 @@
-//Obtendo 2 notas do teclado, calcule a média delas e apresente a média na tela.
-algoritmo "Exercicio_4_27_03"
-// Função : Média de valores
-// Autor : Priscilla Behnke
-// Data : 27/03/2019
+//Escreva um algoritmo que leia 2 valores X e Y e que calcule X na potência Y.
+
+algoritmo "Exercicio_04"
+// Função:
+// Autor: Priscilla Behnke
+// Data : 22/04/2019
 // Seção de Declarações
+
 var
-V1,V2,V3: inteiro
-SOMA,MEDIA: real
+i,x,y,res: inteiro
 
 inicio
 // Seção de Comandos
-ESCREVA("Informe um valor: ")
-LEIA(V1)
-ESCREVA("Informe um valor: ")
-LEIA (V2)
-SOMA <-(V1+V2)
-ESCREVAL("A soma dos dois valores informados é:",SOMA)
-MEDIA <- (SOMA/2)
-ESCREVAL("A média da dos dois valores informado é:",MEDIA)
-
-
+ESCREVA("Digite o valor de 'X': ")
+LEIA(x)
+ESCREVA("Digite o valor de 'Y': ")
+LEIA(y)
+res <- 1
+para i de 1 ate y passo 1 faca
+   res <- res * x
+fimpara
+ESCREVA("Potência de",x," elevado a",y," é:",res)
 fimalgoritmo
