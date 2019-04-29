@@ -12,10 +12,12 @@ inicio
                leia(numeros[l, c])
           fimpara
      fimpara
+     limpatela
+     escreval("Resultado da diagonal principal: ")
      para l de 0 ate 4 passo 1 faca
           para c de 0 ate 4 passo 1 faca
                se (l = c) entao
-                  escreval(numeros[l, c])
+                  escreval("Linha: ", l, " Coluna: ", c, " = ", numeros[l, c])
                fimse
           fimpara
      fimpara
