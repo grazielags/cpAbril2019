@@ -8,20 +8,24 @@ algoritmo "Exercicio_04"
 // Seção de Declarações
 
 var
-M1,M2,M3,M4,M5: inteiro
-funcao soma(): inteiro
+numeros: vetor [0..4, 0..4] de inteiro
+l, c, soma: inteiro
 
 inicio
-retorne M1 + M2 + M3 + M4 + M5
-fimfuncao
-inicio
-M1 <- 1
-M2 <- 2
-M3 <- 3
-M4 <- 4
-M5 <- 5
-ESCREVAL("Valores das matrizes: ",M1,M2,M3,M4,M5)
-ESCREVA("Soma dos valores das matrizes: ",soma())
-ESCREVAL
+para l de 0 ate 4 passo 1 faca
+para c de 0 ate 4 passo 1 faca
+ESCREVA("Digite um número[", l,"][",c,"]: ")
+LEIA(numeros[l, c])
+soma <- soma + numeros[l, c]
+fimpara
+fimpara
+limpatela
+para l de 0 ate 4 passo 1 faca
+para c de 0 ate 4 passo 1 faca
+ESCREVA(numeros[l, c]:3, "  ")
+fimpara
+ESCREVAL()
+fimpara
+ESCREVAL("A soma dos valoes da matriz é: ", soma)
 fimalgoritmo
 

@@ -8,15 +8,34 @@ algoritmo "Exercicio_03"
 // Seção de Declarações
 
 var
-valor: vetor [0..4,0..2] de inteiro
-l,c: inteiro
+numeros: vetor [0..4,0..4] de inteiro
+l, c: inteiro
 
 inicio
 // Seção de Comandos
 para l de 0 ate 4 passo 1 faca
    para c de 0 ate 2 passo 1 faca
-      ESCREVA("Linha[",l,"].Coluna[",c,"].Valor.")
-      LEIA(valor[l,c])
+      ESCREVAl("Digite um número[", l,"][", c,"]: ")
+      LEIA(numeros[l, c])
    fimpara
+fimpara
+limpatela
+ESCREVAL("Mariz completa:")
+para l de 0 ate 4 passo 1 faca
+   para c de 0 ate 4 passo 1 faca
+      ESCREVA(numeros[l, c]: 3, " ")
+   fimpara
+   ESCREVAL()
+fimpara
+ESCREVAL("Resultado da diagonal principal: ")
+para l de 0 ate 4 passo 1 faca
+   para c de 0 ate 4 passo 1 faca
+      se (l = c) entao
+         ESCREVA(numeros[l, c]:3)
+      senao
+         ESCREVA(" ")
+      fimse
+   fimpara
+   ESCREVAL()
 fimpara
 fimalgoritmo
