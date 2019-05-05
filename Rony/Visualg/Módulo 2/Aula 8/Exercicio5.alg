@@ -13,13 +13,13 @@ inicio
 
 escreval()
 
-para l de 0 ate 1 faca
+para l de 0 ate 9 faca
 escreva("adicione um valor ao vetor: ")
 leia(v[l])
 fimpara
 escreval()
 escreval("vetor criado:")
-para l de 0 ate 1 faca
+para l de 0 ate 9 faca
 escreval(v[l])
 fimpara
 escreval()
@@ -31,7 +31,7 @@ inicio
 
 escreval()
 s<-0
-para l de 0 ate 1 faca
+para l de 0 ate 9 faca
 s<-s+v[l]
 fimpara
 escreval("soma dos valores do vetor: ",s)

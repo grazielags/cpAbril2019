@@ -4,7 +4,7 @@ algoritmo "Exercicio 4"
 // Data : 17/04/2019
 // Seção de Declarações 
 var
-   v:vetor[0..4] de inteiro
+   v:vetor[0..3] de inteiro
    n,l,c:inteiro
    
 procedimento inserir()
@@ -38,7 +38,7 @@ inicio
    escreval("vetor e ao digitar a opção 3 deve parar de executar o algoritmo.")
    escreval()
 
-   enquanto n <> 3 faca
+   enquanto (n <> 3) e (l<=3) faca
    escreva("Digite a opção escolhida entre 1, 2 e 3: ")
    leia(n)
    escolha n
@@ -50,6 +50,10 @@ inicio
    
    fimescolha
    fimenquanto
-
+   
+   escreval()
+   se l>3 entao
+   exibir()
+   fimse
 
 fimalgoritmo

@@ -25,7 +25,18 @@ inicio
         fimpara
    fimpara
    
+   escreval()
 
+   escreva("Matriz:")
+   
+   escreval()
+   
+   para l de 0 ate 4 faca
+        para c de 0 ate 4 faca
+        escreva(m[l,c]:3,"  ")
+        fimpara
+        escreval()
+   fimpara
    
    escreval()
    escreval("Os valores da diagonal principal são:")

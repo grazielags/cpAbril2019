@@ -21,10 +21,13 @@ inicio
         fimpara
    fimpara
    
+   escreval("Matriz:")
+   
    para l de 0 ate 2 faca
         para c de 0 ate 2 faca
-        escreval("valor da posição",l,c,": ",m[l,c])
+        escreva(m[l,c]:3,"   ")
         fimpara
+        escreval()
    fimpara
    
    
