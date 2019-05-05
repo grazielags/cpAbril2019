@@ -8,6 +8,8 @@ var
 qtdLados: inteiro
 procedimento leituraDados()
 inicio
+ESCREVAL("*** QUAL É A FIGURA? ***")
+ESCREVAL
 ESCREVA("Digite a quantidade de lados:")
 LEIA(qtdLados)
 fimprocedimento
@@ -23,4 +25,5 @@ caso 5
 outrocaso
    ESCREVA("Inválido")
 fimescolha
+ESCREVAL
 fimalgoritmo
