@@ -22,7 +22,7 @@ ESCREVA("Digite o 1º nº: ")
 LEIA(N1)
 ESCREVA("Digite o 2º nº: ")
 LEIA(N2)
-ESCREVA(N1, "+", N2, " = ", N1+N2)
+ESCREVA(N1,"+",N2, " = ", N1+N2)
 fimprocedimento
 
 procedimento subtracao()
@@ -32,7 +32,7 @@ ESCREVA("Digite o 1º nº: ")
 LEIA(N1)
 ESCREVA("Digite o 2º nº: ")
 LEIA(N2)
-ESCREVA(N1, "-", N2, " = ", N1-N2)
+ESCREVA(N1,"-",N2," = ", N1-N2)
 fimprocedimento
 
 procedimento multiplicacao()
@@ -43,7 +43,7 @@ ESCREVA("Digite o 1º nº: ")
 LEIA(N1)
 ESCREVA("Digite o 2º nº: ")
 LEIA(N2)
-ESCREVA(N1, "*", N2, " = ", N1 * N2)
+ESCREVA(N1,"*",N2," = ", N1 * N2)
 fimprocedimento
 
 procedimento divisao(): inteiro
@@ -55,7 +55,7 @@ LEIA(N1)
 ESCREVA("Digite o 2º nº: ")
 LEIA(N2)
 retorne N1 div N2
-fimfuncao
+fimprocedimento
 
 inicio
 leituraOperacao()
