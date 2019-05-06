@@ -18,7 +18,9 @@ inicio
    escreval()
    escreva("Digite o valor do seguro atual do cliente: ")
    leia(s)
-
+   se s<0 entao
+   escreval("valor inválido")
+   senao
    se s<=800 entao
       d <-0
       escreval("o valor do desconto é: ",d)
@@ -45,6 +47,6 @@ inicio
                 fimse
            fimse
    fimse
-                  
+   fimse
                   
 fimalgoritmo

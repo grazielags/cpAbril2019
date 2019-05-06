@@ -1,3 +1,5 @@
+//Faça um algoritmo que leia um número e mostre a fatorial desse número.
+//(N * N - 1 * N - 2 * ... * N - (N-1))
 algoritmo "Exercicio2"
 var
    i, numero, fatorial : inteiro

@@ -3,19 +3,19 @@ algoritmo "Exercicio6"
 // No fim do algoritmo apresentar os valores da soma.
 
 var
-   valorDigitado : REAL
-   soma : REAL
+   valor, soma : inteiro
+
 inicio
 
       soma := 0
       ESCREVA ("Digite um valor para a soma: ")
-      LEIA (valorDigitado)
+      LEIA (valor)
 
-      ENQUANTO valorDigitado <> 0 FACA
-          soma := soma + valorDigitado
+      ENQUANTO valor % 2 = 0 FACA
+          soma := soma + valor
           ESCREVAL ("Total: ", soma)
           ESCREVA ("Digite um valor para a soma: ")
-          LEIA (valorDigitado)
+          LEIA (valor)
       FIMENQUANTO
 
       ESCREVAL ("Resultado: ", soma)

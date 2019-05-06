@@ -19,6 +19,7 @@ Inicio
     leia (nivel)
     escreval ("Quantas horas o funcionário trabalhou? ")
     leia (horas)
+    limpatela
     escolha nivel
     caso 1
     salario <- (12.00*horas)
@@ -29,6 +30,8 @@ Inicio
     caso 3
     salario <- (50.00*horas)
             Escreval ("Salario de ",nome, "é: ",salario)
+    outrocaso
+            Escreval ("Nivel informado errado")
     fimescolha
     
 

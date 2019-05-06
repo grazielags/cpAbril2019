@@ -34,7 +34,7 @@ inicio
    d <- d +1
    media <- total / d
 
-   se media>10 entao
+   se (media>10) OU (media<0) entao
    escreva("média invalida")
       senao
       se media>=7 entao

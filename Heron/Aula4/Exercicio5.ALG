@@ -1,4 +1,4 @@
-Algoritmo "semnome"
+Algoritmo "Exercicio5"
 // 5) Uma seguradora concederá um desconto especial para alguns clientes.
 // Faça um algoritmo que leia o valor do seguro de um cliente e calcule o
 // valor de desconto de acordo com a tabela abaixo. Mostre uma mensagem
