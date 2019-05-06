@@ -8,7 +8,7 @@ var
 inicio
      para l de 0 ate 4 passo 1 faca
           para c de 0 ate 4 passo 1 faca
-               escreval("Digite um número[", l, "][", c, "]: ")
+               escreva("Digite um número[", l, "][", c, "]: ")
                leia(numeros[l, c])
                soma <- soma + numeros[l, c]
           fimpara

@@ -13,12 +13,22 @@ inicio
           fimpara
      fimpara
      limpatela
+     escreval("Matriz completa: ")
+     para l de 0 ate 4 passo 1 faca
+          para c de 0 ate 4 passo 1 faca
+               escreva(numeros[l, c]:3, "   ")
+          fimpara
+          escreval()
+     fimpara
      escreval("Resultado da diagonal principal: ")
      para l de 0 ate 4 passo 1 faca
           para c de 0 ate 4 passo 1 faca
-               se (l = c) entao
-                  escreval("Linha: ", l, " Coluna: ", c, " = ", numeros[l, c])
-               fimse
+              se (l = c) entao
+                 escreva(numeros[l, c]:3)
+              senao
+                 escreva("   ")
+              fimse
           fimpara
+          escreval()
      fimpara
 fimalgoritmo

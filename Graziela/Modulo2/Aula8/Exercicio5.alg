@@ -4,6 +4,7 @@ algoritmo "Exercicio5"
 var
    numeros: vetor[0..9] de inteiro
    i, soma: inteiro
+   
 procedimento lerVetor()
 inicio
    para i de 0 ate 9 faca

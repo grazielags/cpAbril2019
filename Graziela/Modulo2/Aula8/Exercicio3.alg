@@ -2,6 +2,7 @@
 algoritmo "Exercicio3"
 var
    numero1, numero2: inteiro
+
 procedimento leituraDados()
 inicio
    escreva("Digite o primeiro número: ")
@@ -9,6 +10,7 @@ inicio
    escreva("Digite o segundo número: ")
    leia(numero2)
 fimprocedimento
+
 funcao maiorNumero(): inteiro
 inicio
       se numero1 > numero2 entao
@@ -17,6 +19,7 @@ inicio
          retorne numero2
       fimse
 fimfuncao
+
 inicio
    leituraDados()
    escreva("O maior número entre", numero1, " e", numero2, " é:", maiorNumero())

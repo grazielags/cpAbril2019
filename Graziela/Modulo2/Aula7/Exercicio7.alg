@@ -8,15 +8,14 @@ var
 inicio
      para l de 0 ate 3 passo 1 faca
           para c de 0 ate 3 passo 1 faca
-               numeros[l, c] <- l + c
+             numeros[l, c] <- l + c
           fimpara
      fimpara
      limpatela
-     escreval("Matriz completa: ")
      para l de 0 ate 3 passo 1 faca
-          para c de 0 ate 3 passo 1 faca
-               escreva(l, " +", c, " =", numeros[l, c]:3, "   ")
-          fimpara
-          escreval()
+        para c de 0 ate 3 passo 1 faca
+           escreva(numeros[l, c]:3, "   ")
+        fimpara
+        escreval()
      fimpara
 fimalgoritmo

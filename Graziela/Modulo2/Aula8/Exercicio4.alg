@@ -8,6 +8,7 @@ algoritmo "Exercicio4"
 var
    numeros: vetor[0..2] de inteiro
    opcao, i: inteiro
+
 procedimento menu()
 inicio
    enquanto opcao <> 3 faca

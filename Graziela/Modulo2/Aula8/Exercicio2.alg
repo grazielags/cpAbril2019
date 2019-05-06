@@ -4,12 +4,14 @@
 //realizará o cálculo da operação informado e escreverá o resultado.
 algoritmo "Exercicio2"
 var
-   operacao: caractere
+   operacao, teste: caractere
+
 procedimento leituraOperacao()
 inicio
    escreva("Digite a operacao +, -, * ou /: ")
    leia(operacao)
 fimprocedimento
+
 procedimento adicao()
 var
    numero1, numero2: inteiro
@@ -20,6 +22,7 @@ inicio
       leia(numero2)
       escreva(numero1, " +", numero2, " = ", numero1 + numero2)
 fimprocedimento
+
 procedimento subtracao()
 var
    numero1, numero2: inteiro
@@ -30,6 +33,7 @@ inicio
       leia(numero2)
       escreva(numero1, " -", numero2, " = ", numero1 - numero2)
 fimprocedimento
+
 procedimento multiplicacao()
 var
    numero1, numero2: inteiro
@@ -40,6 +44,7 @@ inicio
       leia(numero2)
       escreva(numero1, " *", numero2, " = ", numero1 * numero2)
 fimprocedimento
+
 funcao divisao(): inteiro
 var
    numero1, numero2: inteiro
@@ -50,6 +55,7 @@ inicio
       leia(numero2)
       retorne numero1 div numero2
 fimfuncao
+
 inicio
    leituraOperacao()
    escolha operacao

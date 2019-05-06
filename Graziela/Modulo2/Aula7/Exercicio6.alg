@@ -12,6 +12,10 @@ inicio
                leia(numeros[l, c])
           fimpara
      fimpara
+     repita
+        escreva("Digite uma linha de 0 até 3 para saber a soma dos números: ")
+        leia(linha)
+     ate (linha >= 0) e (linha <= 3)
      limpatela
      escreval("Matriz completa: ")
      para l de 0 ate 3 passo 1 faca
@@ -21,10 +25,8 @@ inicio
           fimpara
           escreval()
      fimpara
-     escreva("Digite a linha de 0 até 3 que deseja saber a soma: ")
-     leia(linha)
      para c de 0 ate 3 passo 1 faca
-         soma <- soma + numeros[linha, c]
+        soma <- soma + numeros[linha, c]
      fimpara
-     escreval("A soma dos valores da linha: ", linha, " é: ", soma)
+     escreva("A soma da linha", linha, " é: ", soma)
 fimalgoritmo

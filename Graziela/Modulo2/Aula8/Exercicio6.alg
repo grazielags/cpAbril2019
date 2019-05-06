@@ -2,6 +2,7 @@
 algoritmo "Exercicio6"
 var
    i, numero1, numero2, soma: inteiro
+
 procedimento somaImpares()
 inicio
    se numero1 > numero2 entao
