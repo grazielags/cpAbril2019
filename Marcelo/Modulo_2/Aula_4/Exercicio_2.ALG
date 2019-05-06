@@ -7,28 +7,25 @@ Algoritmo "Exercicio2"
 //Funcionário Nível Pleno R$25,00 por hora
 //Funcionário Nível Senior R$50,00 por hora
 Var
-   salario: inteiro
-   nivel: inteiro
-   nome: caractere
-   horas: inteiro
-Inicio
-      escreval ("Nome do funcionário")
+   salario, horasTrabalhadas: real
+   nome, nivel: caractere
+   Inicio
+      escreva("Nome do funcionário: ")
       leia (nome)
-      escreval ("Horas trabalhadas")
-      leia (horas)
-      escreval ("Informe seu nível:")
+      escreva("Quantidade de Horas trabalhadas: ")
+      leia (horasTrabalhadas)
+      escreval ("Informe seu nível: ")
       escreval ("1 - nivel - junior")
       escreval ("2 - nivel - Pleno")
       escreval ("3 - nivel - Senior")
       leia (nivel)
-
       escolha nivel
-      caso 1
-      escreval ("Funcionário Ganha:", horas*12)
-      caso 2
-      escreval ("Funcionário Ganha:", horas*25)
-      caso 3
-      escreval ("Funcionário Ganha:", horas*50)
+         caso "1"
+      escreval("Funcionário Ganha:", horasTrabalhadas*12)
+         caso "2"
+      escreval("Funcionário Ganha:", horasTrabalhadas*25)
+         caso "3"
+      escreval("Funcionário Ganha:", horasTrabalhadas*50)
       fimescolha
       
 Fimalgoritmo

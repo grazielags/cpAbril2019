@@ -10,7 +10,7 @@ Algoritmo "Execicio_3"
 //anos e que tenham olhos azuis.
 Var
   sexo, corOlhos: caractere
-  i, idade, maiorIdade: inteiro
+  i, idade, maiorIdade, individuos: inteiro
 Inicio
    para i de 0 ate 4 passo 1 faca
      Escreval ("Digite a idade: ")
@@ -22,6 +22,10 @@ Inicio
      se idade > maiorIdade entao
         maiorIdade <- idade
      fimse
-     fimpara
-     Escreval ("A maioridade idade é:", maiorIdade0)
+     se (sexo = "F") e (corOlhos = "A") e (idade >= 18) e (idade <= 35) entao
+        individuos <- individuos + 1
+     fimse
+   fimpara
+     Escreval ("A maior idade é:", maiorIdade)
+      escreval("A quantidade de indivíduos do sexo feminino com olhos azul e idade entre 18 e 35 anos é: ", individuos)
 Fimalgoritmo
