@@ -36,9 +36,13 @@ fimprocedimento
 procedimento divi()
 inicio
 escreval()
+se n2=0 entao
+escreval("Não pode dividir por zero!!!!!")
+senao
 res<-n1/n2
 escreval("resultado:")
 escreval(n1," / ",n2," = ",res)
+fimse
 fimprocedimento
 
 inicio

@@ -7,19 +7,43 @@ algoritmo "Exercicio_02"
 // Seção de Declarações 
 
 var
-M1,M2: inteiro
-funcao multi(): inteiro
+numeros1, numeros2: vetor [0..1, 0..1] de inteiro
+l, c: inteiro
 
 inicio
-retorne M1 * M2
-fimfuncao
-
-inicio
-M1 <- 2
-M2 <- 2
-ESCREVAL("Resultado da multiplicação das duas matrizes: ",multi())
-M1 <- 4
-M2 <- 4
-ESCREVAL("Resultado da multiplicação das duas matrizes: ", multi())
-ESCREVAL("OBS: Valor da Matriz A e B: 2. C e D:4")
+ESCREVAL("Obtendo valores da matriz 1")
+para l de 0 ate 1 passo 1 faca
+para c de 0 ate 1 passo 1 faca
+ESCREVA("Digite um número na posição [", l,"][", c,"]:")
+LEIA(numeros1[l, c])
+fimpara
+fimpara
+ESCREVAL("Obtendo valores da matriz 2")
+para l de 0 ate 1 passo 1 faca
+para c de 0 ate 1 passo 1 faca
+ESCREVAL("Digite um número na posição[", l,"][", c, "]: ")
+LEIA(numeros2[l, c])
+fimpara
+fimpara
+limpatela
+ESCREVA("Matriz 1:")
+para l de 0 ate 1 passo 1 faca
+para c de 0 ate 1 passo 1 faca
+ESCREVA(numeros1[l, c]:3, " ")
+fimpara
+ESCREVAL
+fimpara
+ESCREVA("Matriz 2:")
+para l de 0 ate 1 passo 1 faca
+para c de 0 ate 1 passo 1 faca
+ESCREVA(numeros2[l, c]:3, "")
+fimpara
+ESCREVAL
+fimpara
+ESCREVAL("Resultado da multiplicação da matriz 1 pela matriz 2:")
+para l de 0 ate 1 passo 1 faca
+para c de 0 ate 1 passo 1 faca
+ESCREVAL(numeros1[l, c],"x", numeros2[l, c]," = ", numeros1[l, c] * numeros2[l, c])
+fimpara
+fimpara
 fimalgoritmo

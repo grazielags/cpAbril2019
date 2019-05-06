@@ -5,7 +5,7 @@ algoritmo "Exercicio 6"
 // Seção de Declarações 
 var
 m:vetor[0..3,0..3] de inteiro
-l,c,s:inteiro
+l,c,s,linha:inteiro
 inicio
 // Seção de Comandos
 
@@ -22,16 +22,22 @@ inicio
    fimpara
 
    escreval()
+
+   repita
    escreval("Digite o numero da linha que voce deseja saber")
    escreva("o valor da soma de todos os elementos da linha: ")
-   leia(l)
+   leia(linha)
+   escreval()
+   ate (linha >=0 ) e (linha <= 3)
+
    
+
    para c de 0 ate 3 faca
-   s<-s + m[l,c]
+   s<- s + m[linha,c]
    fimpara
    
    escreval()
-   escreval("o valor da soma de todos os elementos da linha",l," é:",s)
+   escreval("o valor da soma de todos os elementos da linha",linha," é:",s)
    
    
 fimalgoritmo
