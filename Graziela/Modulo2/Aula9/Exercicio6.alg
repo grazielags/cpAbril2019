@@ -13,18 +13,17 @@ funcao tabuada(i: inteiro): inteiro
 var
    resultado: inteiro
 inicio
-   se i = numero entao
+   se i = 10 entao
       retorne numero
    senao
       escreval(i, " x ", numero, " = ", i * numero)
-      resultado <- tabuada(i + 1)
-      retorne i * numero
+      retorne numero + tabuada(i + 1)
    fimse
 fimfuncao
 
 inicio
    escreva("Digite um número maior do que 0: ")
    leia(numero)
-   escreval(numero, " x ", numero, " = ", tabuada(1))
+   escreval(10, " x ", numero, " = ", tabuada(1))
 fimalgoritmo
 
