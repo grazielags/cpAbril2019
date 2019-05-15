@@ -24,7 +24,7 @@ Inicio
         fimpara
         fimpara
         Escreval("O Maior Valor informado é: ",maior)
-        Escreval("O Menir Valor informado é: ",menor)
+        Escreval("O Menor Valor informado é: ",menor)
 
 
 
