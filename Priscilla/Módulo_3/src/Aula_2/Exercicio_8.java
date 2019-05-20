@@ -9,7 +9,7 @@ public class Exercicio_8 {
 		int valor2 = Integer.parseInt(JOptionPane.showInputDialog("Informe o 2º valor:"));
 		
 		int valor3 = valor1;
-		valor1= valor2;
+		valor1 = valor2;
 		valor2 = valor3;
 		
 		JOptionPane.showMessageDialog(null, "1º valor: " +  valor1
