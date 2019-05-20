@@ -16,7 +16,7 @@ public class Exercicio_3 {
 		double total = (Func1 + Func2 + Func3 + Func4 + Func5);
 		double media = (total / 5);
 		
-		JOptionPane.showMessageDialog(null, "Soma dos salários informados: R$" + total);
+		JOptionPane.showMessageDialog(null,"Soma dos salários informados: R$" + total);
 		JOptionPane.showMessageDialog(null,"Média dos 5 salários informados: R$" + media + " reais.");
 
 	}
