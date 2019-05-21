@@ -6,6 +6,8 @@ public class Exercicio_7 {
 
 	public static void main(String[] args) {
 		
+		JOptionPane.showMessageDialog(null, "*** MÉDIA DO ALUNO ***");
+		
     String nome = JOptionPane.showInputDialog("Nome do aluno: ");
     double Prova1 = Double.parseDouble(JOptionPane.showInputDialog("Nota da 1º prova:"));
     double Prova2 = Double.parseDouble(JOptionPane.showInputDialog("Nota da 2º prova: "));

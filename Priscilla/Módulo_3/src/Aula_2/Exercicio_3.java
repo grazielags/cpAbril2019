@@ -7,6 +7,9 @@ import javax.swing.JOptionPane;
 public class Exercicio_3 {
 
 	public static void main(String[] args) {
+		
+		JOptionPane.showMessageDialog(null, "*** MÉDIA DOS SALÁRIOS ***");
+		
 		double Func1 = Double.parseDouble(JOptionPane.showInputDialog("Informe o salário do 1º funcionário: "));	
 		double Func2 = Double.parseDouble(JOptionPane.showInputDialog("Informe o salário do 2º funcionário: "));
 		double Func3 = Double.parseDouble(JOptionPane.showInputDialog("Informe o salário do 3º funcionário: "));

@@ -5,6 +5,9 @@ import javax.swing.JOptionPane;
 public class Exercicio_8 {
 
 	public static void main(String[] args) {
+		
+		JOptionPane.showMessageDialog(null, "*** INVERTENDO OS VALORES INFORMADOS ***");
+		
 		int valor1 = Integer.parseInt(JOptionPane.showInputDialog("Informe o 1º valor:"));
 		int valor2 = Integer.parseInt(JOptionPane.showInputDialog("Informe o 2º valor:"));
 		

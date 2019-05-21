@@ -4,6 +4,9 @@ import javax.swing.JOptionPane;
 
 public class Exercicio_4 {		
 		public static void main(String[] args) {
+			
+			JOptionPane.showMessageDialog(null, "*** QUAL O MÊS E QUANTOS DIAS? ***");
+			
 			int numero = Integer.parseInt(JOptionPane.showInputDialog("Informe um número: "));	
             switch(numero)
             

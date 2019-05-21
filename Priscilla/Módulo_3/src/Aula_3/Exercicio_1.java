@@ -5,6 +5,8 @@ import javax.swing.JOptionPane;
 public class Exercicio_1 {
 
 	public static void main(String[] args) {
+		
+		JOptionPane.showMessageDialog(null, "*** MAIOR E MENOR VALOR ***");
 
 		int valor1 = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor 1: "));
 		int valor2 = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor 2: "));

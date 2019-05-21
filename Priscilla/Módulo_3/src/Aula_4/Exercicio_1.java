@@ -5,6 +5,8 @@ import javax.swing.JOptionPane;
 public class Exercicio_1 {
 
 	public static void main(String[] args) {
+		
+		JOptionPane.showMessageDialog(null, "*** PLANO DE AUMENTO DE SALÁRIO ***");
 		String plano = JOptionPane.showInputDialog("Digite um plano (A, B ou C): ");
 		double salario = Double.parseDouble(JOptionPane.showInputDialog("Informe o salário do funcionário: R$"));
 		double novoSalario = 0;

@@ -5,6 +5,9 @@ import javax.swing.JOptionPane;
 public class Exercicio_3 {
 
 	public static void main(String[] args) {
+		
+		JOptionPane.showMessageDialog(null, "*** CALCULADORA ***");
+		
 		String operacao = JOptionPane.showInputDialog("Digite a operação desejada (+, -, * ou /: )");
 		int A = Integer.parseInt(JOptionPane.showInputDialog("Digite um número: "));
 		int B = Integer.parseInt(JOptionPane.showInputDialog("Digite outro número: "));

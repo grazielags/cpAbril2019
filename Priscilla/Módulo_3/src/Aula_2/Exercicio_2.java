@@ -5,6 +5,9 @@ import javax.swing.JOptionPane;
 public class Exercicio_2 {
 
 	public static void main(String args[]) {
+		
+		JOptionPane.showMessageDialog(null, "*** ÁREA COM VALOR INTEIRO ***");
+		
 		double a = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor da altura: "));
         double b = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor da base menor: "));
         double B = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor da base maior: "));

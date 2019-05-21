@@ -5,6 +5,9 @@ import javax.swing.JOptionPane;
 public class Exercicio_6 {
 
 	public static void main(String[] args) {
+		
+		JOptionPane.showMessageDialog(null, "*** SALÁRIO COM COMISSÃO ***");
+		
 		String nome = JOptionPane.showInputDialog("Nome do funcionário: ");
 		int salarioFixo = Integer.parseInt(JOptionPane.showInputDialog("Salário do funcionário informado: "));
 		int vendas = Integer.parseInt(JOptionPane.showInputDialog("Total de vendas do funcionário: "));

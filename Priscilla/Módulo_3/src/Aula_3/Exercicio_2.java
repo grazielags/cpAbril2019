@@ -5,6 +5,8 @@ import javax.swing.JOptionPane;
 public class Exercicio_2 {
 	public static void main(String[] args) {
 		
+		JOptionPane.showMessageDialog(null, "*** O ANO É BISSEXTO? ***");
+		
 		int ano = Integer.parseInt(JOptionPane.showInputDialog("Digite um ano: "));
 		
 		boolean isBissexto = ano%4 == 0 && ano%100 != 0 || ano%400 == 0;
