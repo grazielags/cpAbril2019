@@ -11,7 +11,7 @@ public class Exercicio5 {
 				.parseDouble(JOptionPane.showInputDialog("Entre com a distância total percorrida pelo automóvel(km): "));
 		double combustivel = Double
 				.parseDouble(JOptionPane.showInputDialog("Entre com o total de combustível gasto pelo automóvel(litros): "));
-		double consumo_medio = combustivel / distancia;
+		double consumo_medio = distancia /combustivel;
 		JOptionPane.showMessageDialog(null, "O consumo médio do automóvel é: " + consumo_medio + " km/litro");
 
 	}
