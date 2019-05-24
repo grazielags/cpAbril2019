@@ -6,7 +6,7 @@ public class Exercicio_8 {
 
 	public static void main(String[] args) {
 		
-		JOptionPane.showMessageDialog(null, "*** CATEGORIA QUE A PESSOA PERTECE ***");
+		JOptionPane.showMessageDialog(null, "*** CATEGORIA QUE A PESSOA PERTENCE ***");
 		
 		int idade = Integer.parseInt(JOptionPane.showInputDialog("Informe a idade da pessoa: "));
 				
