@@ -6,6 +6,8 @@ public class Exercicio_7 {
 
 	public static void main(String[] args) {
 		
+		JOptionPane.showMessageDialog(null,"*** APROVADO OU REPOVADO? ***");
+		
 		double nota1 = Double.parseDouble(JOptionPane.showInputDialog("Digite a 1º nota:"));
 		double nota2 = Double.parseDouble(JOptionPane.showInputDialog("Digite a 2º nota:"));
 		double nota3 = Double.parseDouble(JOptionPane.showInputDialog("Digite a 3º nota:"));
