@@ -1,5 +1,7 @@
 package Aula_4;
 
+import java.time.LocalDate;
+
 import javax.swing.JOptionPane;
 
 public class Exercicio_4 {		
@@ -7,7 +9,9 @@ public class Exercicio_4 {
 			
 			JOptionPane.showMessageDialog(null, "*** QUAL O MÊS E QUANTOS DIAS? ***");
 			
-			int numero = Integer.parseInt(JOptionPane.showInputDialog("Informe um número: "));	
+			int numero = Integer.parseInt(JOptionPane.showInputDialog("Informe um mês: "));	
+			int ano = LocalDate.now().getYear();
+			
             switch(numero)
             
 		{
@@ -16,7 +20,13 @@ public class Exercicio_4 {
 			break;
 		
 		case 2:
+			boolean isBissexto = ano%4 == 0 && ano%100 != 0 || ano%400 == 0;
+			if (isBissexto == true) {
+				JOptionPane.showMessageDialog(null, "Fevereiro - 29 dias");
+			}
+			else {		
 		JOptionPane.showMessageDialog(null, "Fevereiro - 28 dias");
+			}
 		break;
 		
 	    case 3:
