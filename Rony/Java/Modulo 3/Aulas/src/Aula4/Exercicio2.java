@@ -17,7 +17,7 @@ public class Exercicio2 {
 			JOptionPane.showMessageDialog(null, "Um");
 			break;
 		case 2:
-			JOptionPane.showMessageDialog(null, "Doi");
+			JOptionPane.showMessageDialog(null, "Dois");
 			break;
 		case 3:
 			JOptionPane.showMessageDialog(null, "Três");
