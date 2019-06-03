@@ -1,7 +1,6 @@
 package Aula7;
 
 import javax.swing.JOptionPane;
-
 /*
  * Construa uma matriz 3 x 3, preencha ela com valores inteiros
  * e após isso verifique se essa matriz é uma matriz identidade.
